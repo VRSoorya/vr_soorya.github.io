@@ -1,2 +1,4 @@
 name: V R Soorya, personal blog
 markdown: kramdown
+
+theme: jekyll-theme-hacker
