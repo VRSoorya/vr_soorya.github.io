@@ -7,7 +7,39 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+  body2 {font-family: "Roboto", sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 </style>
 <body class="w3-light-grey">
 
@@ -90,6 +122,21 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>The interns come equipped with a 1-year internship visa and health insurance. Host companies have absolute discretion in deciding the intern’s scope of work. You will participate fully in the interview process to identify a suitable intern that will make a useful addition to any team within your company – business, marketing, operations, customer experience, data, engineering, product, design and others.</p> 
           <p>The internship arrangement is non-binding, open and collaborative. The next batch of interns are scheduled to start work in January 2020 - till December 2020. Do drop me an <a href="mailto:soorya@u.nus.edu?subject=MoreAboutNOC">email</a> if you need more details regarding the internship arrangement.</p>
         </div><br>
+        
+        <body2>
+
+          <div class="container2">
+            <h3>I'd love to hear from you!</h3>
+            <form action="/action_page.php">
+              <input type="text" id="fname" name="firstname" placeholder="First Name">
+              <input type="text" id="lname" name="lastname" placeholder="Last Name">
+              <input type="text" id="email" name="email" placeholder="Email">
+              <textarea id="msg" name="message" placeholder="Your Message" style="height:200px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </body2>
+        
       </div><br>
       
       <!-- End Left Column -->
